@@ -1,0 +1,37 @@
+knganha@knganha-VirtualBox:~$ ls
+01.report.shell.commands  Downloads         Music     Templates
+Desktop                   examples.desktop  Pictures  Videos
+Documents                 list              Public
+
+knganha@knganha-VirtualBox:~$ grep list list
+This is written to iclude the word "list".
+
+knganha@knganha-VirtualBox:~$ wc -l list
+1 list
+
+knganha@knganha-VirtualBox:~$ free total
+              total        used        free      shared  buff/cache   available
+Mem:        1009124      436512      326056        2168      246556      432712
+Swap:        969960      488460      481500
+
+knganha@knganha-VirtualBox:~$ cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz
+stepping	: 9
+microcode	: 0x19
+cpu MHz		: 2594.118
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+
+
+knganha@knganha-VirtualBox:~$ find *jpg | wc
+  find: ‘*jpg’: No such file or directory
+      0       0       0
+
+
