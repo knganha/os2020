@@ -1,0 +1,74 @@
+knganha@knganha-VirtualBox:~$ echo hello world
+hello world
+
+knganha@knganha-VirtualBox:~$ passwd
+Changing password for knganha.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+
+knganha@knganha-VirtualBox:~$ date
+Thu Jan 16 09:33:01 +07 2020
+
+knganha@knganha-VirtualBox:~$ hostname
+knganha-VirtualBox
+
+knganha@knganha-VirtualBox:~$ arch
+x86_64
+
+knganha@knganha-VirtualBox:~$ uname -a
+Linux knganha-VirtualBox 4.15.0-29-generic #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+knganha@knganha-VirtualBox:~$ dmesg
+[   24.827593] audit: type=1400 audit(1579141712.584:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-thumbnailer" pid=462 comm="apparmor_parser"
+[   24.827600] audit: type=1400 audit(1579141712.584:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-thumbnailer//sanitized_helper" pid=462 comm="apparmor_parser"
+[   34.373163] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+[   34.384410] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+[   34.385522] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[   34.386389] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+[   60.801035] rfkill: input handler disabled
+
+knganha@knganha-VirtualBox:~$ uptime
+ 09:34:02 up 5 min,  1 user,  load average: 2.33, 2.45, 1.21
+
+knganha@knganha-VirtualBox:~$ who am i
+
+knganha@knganha-VirtualBox:~$ whoami
+knganha
+
+knganha@knganha-VirtualBox:~$ who
+knganha  :0           2020-01-16 09:28 (:0)
+
+knganha@knganha-VirtualBox:~$ id
+uid=1000(knganha) gid=1000(knganha) groups=1000(knganha),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+
+knganha@knganha-VirtualBox:~$ last
+knganha  :0           :0               Thu Jan 16 09:28   still logged in
+reboot   system boot  4.15.0-29-generi Thu Jan 16 09:28   still running
+knganha  :0           :0               Thu Jan 16 08:55 - crash  (00:32)
+reboot   system boot  4.15.0-29-generi Thu Jan 16 08:54   still running
+knganha  :0           :0               Thu Jan 16 08:36 - crash  (00:18)
+reboot   system boot  4.15.0-29-generi Thu Jan 16 08:36   still running
+knganha  :0           :0               Sun Jan 12 21:49 - 21:57  (00:08)
+reboot   system boot  4.15.0-29-generi Sun Jan 12 21:48 - 21:57  (00:08)
+
+wtmp begins Sun Jan 12 21:48:47 2020
+
+knganha@knganha-VirtualBox:~$ finger
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+knganha   knganha   *:0             Jan 16 09:28 (:0)
+
+knganha@knganha-VirtualBox:~$ w
+ 09:53:17 up 25 min,  1 user,  load average: 0.20, 0.25, 0.56
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+knganha  :0       :0               09:28   ?xdm?  53.55s  0.03s /usr/lib/gdm3/
+
+
+
+
+
+
+
+
+
